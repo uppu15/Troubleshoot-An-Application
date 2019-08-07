@@ -55,6 +55,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ConsumeNonMotorizedVehicles\ConsumeNonMotorizedVehicles.csproj">
+      <Project>{68b9fded-e736-4140-a49d-011416b67f27}</Project>
+      <Name>ConsumeNonMotorizedVehicles</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NonMotorizedVehicles\NonMotorizedVehicles.csproj">
       <Project>{5896d50a-aa5b-4dd9-9302-0610e6293f66}</Project>
       <Name>NonMotorizedVehicles</Name>

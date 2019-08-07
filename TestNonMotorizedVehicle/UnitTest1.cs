@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NonMotorizedVehicles;
-using Stuctures;
+using Structures;
 
 namespace TestMotorizedVehicle
 {
@@ -22,7 +22,7 @@ namespace TestMotorizedVehicle
             Assert.IsFalse(hasStopped);        
         }
 
-        //[TestMethod]
+        [TestMethod]
         public void TestIsDrivingStructure()
         {
             Tricycle trike = new Tricycle();
